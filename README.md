@@ -1,7 +1,8 @@
 # Diabetes Prediction
 
-# Table of Contents
+## Table of Contents
 - [Overwiev](#overview)
+- [Screenshot](#screenshot)
 - [Learning Objective](#learning-objective)
 - [Tools and Software Requirements](#tools-and-software-requirements)
 - [Packages Requirements](#packages-requirements)
@@ -10,7 +11,6 @@
 - [Results](#results)
 
 ## Overview
-
 Project contains exploratory data analysis and building machine laerniang models based on Pima Indians Diabetes dataset. 
 
 Here is a brief description of the features in the Pima Indians Diabetes Dataset:
@@ -26,6 +26,9 @@ Age: Age in years
 Outcome: Class variable (0 or 1), where 1 indicates that the patient has diabetes and 0 indicates that the patient 
 does not have diabetes.
 
+## Screenshot
+![Screenshot](/Images/app_screenshot.png)
+
 ## Learning Objective
 - Data gathering
 - Cleaning data
@@ -39,12 +42,11 @@ does not have diabetes.
 
 
 ## Tools and Software Requirements
-
-1. [Github Account](https://github.com/)
-2. [Github CLI](https://cli.github.com/)
-3. [VS Code IDE](https://code.visualstudio.com/)
-4. [Jupyter](https://jupyter.org/)
-5. [Python3.8](https://www.python.org/downloads/release/python-380/)
+- [Github Account](https://github.com/)
+- [Github CLI](https://cli.github.com/)
+- [VS Code IDE](https://code.visualstudio.com/)
+- [Jupyter](https://jupyter.org/)
+- [Python3.8](https://www.python.org/downloads/release/python-380/)
 
 ## Packages Requirements
 - Numpy
@@ -55,12 +57,10 @@ does not have diabetes.
 - Seaborn
 
 ## Instalation
-
 1. Clone repository git clone https://github.com/kalbar87/diabetes.git
 2. Navigate to the project directory: cd diabetes
 3. Install dependencies: pip install -r requirements.txt
-4. Run the project: python app.py
-5. Open http://127.0.0.1:5000/ in your browser.
+4. Run the project: streamlit run app.py
 
 ## Model
 
